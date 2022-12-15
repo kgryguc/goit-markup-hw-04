@@ -47,6 +47,11 @@ body {
   color: var(--alternative-text-color-white);
 }
 
+.icon {
+  fill: currentColor;
+  display: inline-block;
+}
+
 .list {
   list-style: none;
 }
@@ -105,10 +110,25 @@ body {
   color: var(--alternative-text-color-grey);
   font-weight: 500;
   text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 0;
+}
+
+.header-contact > .icon {
+  margin-right: 10px;
+}
+
+.header-contact > span {
+  font-size: 16px;
 }
 
 .header-mail {
   margin-right: 50px;
+}
+
+.header-tel > .icon {
+  vertical-align: top;
 }
 
 /* MAIN */
@@ -117,7 +137,9 @@ body {
 
 .hero {
   padding: 200px 0;
-  background: linear-gradient(#2f303a66, #2f303a66), url('../images/hero-background.jpg');
+  background: linear-gradient(#2f303a66, #2f303a66),
+    url('../images/hero-background.jpg') no-repeat center;
+  background-color: var(--main-background-color);
 }
 
 .flex-hero {
