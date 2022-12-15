@@ -11,6 +11,7 @@
   --alternative-background-color-lightgrey: #f5f4fa;
   --alternative-background-color-white: #fff;
   --accent-division-line-lightgrey: #ececec;
+  --icons-default-color: #afb1b8;
 }
 
 /* GLOBAL */
@@ -277,12 +278,38 @@ body {
   font-size: 0;
   padding: 12px;
   border-radius: 50%;
-  color: #afb1b8;
+  color: var(--icons-default-color);
+  cursor: pointer;
 }
 
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus,
+.team-social-link:active {
   background-color: var(--main-brand-color);
   color: var(--alternative-background-color-white);
+}
+
+/* OUR CLIENTS */
+
+.our-clients-list {
+  display: flex;
+  gap: 30px;
+}
+
+.our-clients-item {
+  font-size: 0;
+  padding: 17.71px 32px 14.25px;
+  color: var(--icons-default-color);
+  border-color: currentColor;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.our-clients-item:hover,
+.our-clients-item:focus,
+.our-clients-item:active {
+  color: var(--main-brand-color);
 }
 
 /* FOOTER */
