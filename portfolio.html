@@ -39,11 +39,17 @@
           </nav>
         </div>
         <div>
-          <a class="header-contact header-mail hover-focus-blue" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+          <a class="header-contact header-mail hover-focus-blue" href="mailto:info@devstudio.com">
+            <svg class="icon" width="16" height="12">
+              <use href="images/icons.svg#icon-envelope"></use>
+            </svg>
+            <span>info@devstudio.com</span></a
           >
           <a class="header-contact header-tel hover-focus-blue" href="tel:+48111111111"
-            >+48 111 111 111</a
+            ><svg class="icon" width="10" height="16">
+              <use href="images/icons.svg#icon-smartphone"></use>
+            </svg>
+            <span>+48 111 111 111</span></a
           >
         </div>
       </div>
@@ -205,30 +211,57 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <a class="logo" href="index.html"
-          ><span class="logo-accent">Web</span><span class="logo-dark-background">Studio</span></a
-        >
-        <address class="footer-address">
-          <ul class="list">
-            <li class="footer-contact-item">
-              <a
-                class="footer-location"
-                href="https://goo.gl/maps/CvA9eEBp1LzmgLzp8"
-                target="-blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
+      <div class="container footer-flex">
+        <div>
+          <a class="logo" href="index.html"
+            ><span class="logo-accent">Web</span><span class="logo-dark-background">Studio</span></a
+          >
+          <address class="footer-address">
+            <ul class="list">
+              <li class="footer-contact-item">
+                <a
+                  class="footer-location"
+                  href="https://goo.gl/maps/CvA9eEBp1LzmgLzp8"
+                  target="-blank"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li class="footer-contact-item">
+                <a class="footer-mail hover-focus-white" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-contact-item">
+                <a class="footer-tel hover-focus-white" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-join-us">
+          <p>Dołącz do nas</p>
+          <ul class="list footer-social-links">
+            <li class="footer-social-link">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-instagram"></use>
+              </svg>
             </li>
-            <li class="footer-contact-item">
-              <a class="footer-mail hover-focus-white" href="mailto:info@example.com"
-                >info@example.com</a
-              >
+            <li class="footer-social-link">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-twitter"></use>
+              </svg>
             </li>
-            <li class="footer-contact-item">
-              <a class="footer-tel hover-focus-white" href="tel:+48111111111">+48 111 111 111</a>
+            <li class="footer-social-link">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="footer-social-link">
+              <svg class="icon" width="20" height="20">
+                <use href="images/icons.svg#icon-linkedin"></use>
+              </svg>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
