@@ -114,9 +114,10 @@ body {
 /* MAIN */
 
 /* HERO */
+
 .hero {
-  background-color: var(--main-background-color);
   padding: 200px 0;
+  background: linear-gradient(#2f303a66, #2f303a66), url('../images/hero-background.jpg');
 }
 
 .flex-hero {
@@ -218,9 +219,7 @@ body {
   align-items: center;
   gap: 10px;
   padding: 30px 0;
-
-  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
-    0px 2px 1px #00000033;
+  box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024, 0px 2px 1px #00000033;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -297,8 +296,7 @@ body {
 .filter-button:hover {
   background-color: var(--main-brand-color);
   color: var(--alternative-text-color-white);
-  box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
-    0px 2px 2px #0000001f;
+  box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014, 0px 2px 2px #0000001f;
 }
 
 /* PORTFOLIO GALLERY */
