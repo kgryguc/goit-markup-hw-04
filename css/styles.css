@@ -180,6 +180,18 @@ body {
   padding-top: 94px;
 }
 
+.advantages-icons {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.advantages-icon-rectangle {
+  background-color: var(--alternative-background-color-lightgrey);
+  border-radius: 4px;
+  padding: 25px 100px;
+}
+
 .advantages-list {
   display: flex;
   gap: 30px;
